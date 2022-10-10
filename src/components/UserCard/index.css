@@ -1,0 +1,26 @@
+.user-info h5 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #111827;
+  margin-bottom: 4px !important;
+}
+.user-info p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6b7280;
+  margin-bottom: 5px !important;
+}
+.user-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px;
+}

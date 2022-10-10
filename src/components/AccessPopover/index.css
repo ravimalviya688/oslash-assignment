@@ -1,0 +1,42 @@
+.selected-access {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  cursor: pointer;
+}
+.selected-access span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6b7280;
+}
+.access {
+  position: relative;
+}
+.access-wrapper {
+  position: absolute;
+  top: 28px;
+  border: 1px solid #f3f4f6;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  background-color: #fff;
+  width: 120px;
+  z-index: 9;
+}
+.access-wrapper h6 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #111827;
+  padding: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.access-wrapper h6:last-child {
+  color: #dc2626;
+}
+.access-wrapper h6:hover {
+  background: #f3f4f6;
+}
