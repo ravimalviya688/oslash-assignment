@@ -10,7 +10,7 @@ const list = [
       },
       {
         name: "Arlene Mccoy",
-        desc: "Arlen@gmail.com",
+        desc: "Arlene@gmail.com",
         id: 2,
       },
       {
